@@ -2,6 +2,18 @@ import Contact from '../../../models/contact'
 import { NextResponse } from "next/server";
 import connectDb from '@/lib/connectDb';
 import nodemailer from 'nodemailer'
+
+const headers = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "POST, OPTIONS",
+  "Access-Control-Allow-Headers": "Content-Type",
+};
+
+export async function OPTIONS() {
+  return NextResponse.json({}, { headers, status: 200 });
+}
+
+
 export async function POST(req) {
       try{
         await connectDb()
