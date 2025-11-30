@@ -41,7 +41,7 @@ const ContactSection = () => {
      }
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col items-center text-sm py-12 px-4">
+    <form id='contact' onSubmit={handleSubmit} className="flex flex-col items-center text-sm py-12 px-4">
 
       <p className="text-4xl text-white font-semibold pb-2 drop-shadow-xl">
         Contact Me
