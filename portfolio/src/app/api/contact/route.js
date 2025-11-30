@@ -59,7 +59,7 @@ export async function POST(req) {
 
          return NextResponse.json(
            { message: "Message sent successfully!" },
-           { status: 200 }
+           { headers, status: 200 }
          );         
 
       }catch(err){
