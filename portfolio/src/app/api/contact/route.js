@@ -23,7 +23,7 @@ export async function POST(req) {
         if (!name || !email || !message) {
           return NextResponse.json(
            { message: "All fields are required" },
-           { status: 400 }
+           { headers, status: 400 }
           );   
         }
               
