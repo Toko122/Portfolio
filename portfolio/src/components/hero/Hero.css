@@ -1,0 +1,46 @@
+.heroH1{
+    opacity: 0;
+    animation: heroH1 1.6s ease-in-out forwards;
+}
+
+@keyframes heroH1{
+     from {
+        opacity: 0;
+        transform: translateX(-300px);
+     }to{
+        opacity: 1;
+        transform: translateX(0);
+     }
+}
+
+.heroPAnimation{
+    opacity: 0;
+    animation: heroP 2s ease forwards;
+}
+
+@keyframes heroP{
+     from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.heroButton{
+    opacity: 0;
+    animation: heroButton 1.6s ease-in-out forwards;
+}
+
+@keyframes heroButton{
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
