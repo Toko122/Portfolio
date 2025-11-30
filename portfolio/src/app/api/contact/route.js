@@ -32,6 +32,7 @@ export async function POST(req) {
             email,
             message
         })
+        await newMessage.save()
 
 
         const transporter = nodemailer.createTransport({
