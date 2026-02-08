@@ -9,7 +9,7 @@ const SkillSection = () => {
     { name: "TailwindCss", level: 90 },
     { name: "React", level: 85 },
     { name: "Next.js", level: 85 },
-    { name: "Javascript", level: 90 },
+    { name: "Javascript/Typescript", level: 85 },
     { name: "Node.js", level: 80 },
     { name: "Express.js", level: 80 },
     { name: "MonogoDB", level: 80 },
