@@ -8,11 +8,11 @@ const SkillSection = () => {
     { name: "HTML/CSS", level: 95 },
     { name: "TailwindCss", level: 90 },
     { name: "React", level: 85 },
-    { name: "Next.js", level: 85 },
+    { name: "Next.js", level: 90 },
     { name: "Javascript/Typescript", level: 85 },
-    { name: "Node.js", level: 80 },
-    { name: "Express.js", level: 80 },
-    { name: "MonogoDB", level: 80 },
+    { name: "Node.js", level: 85 },
+    { name: "Express.js", level: 90 },
+    { name: "MonogoDB", level: 90 },
   ];
 
   return (
