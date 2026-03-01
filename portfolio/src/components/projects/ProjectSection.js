@@ -7,6 +7,7 @@ import { useRouter } from 'next/navigation';
 const ProjectSection = () => {
 
      const projects = [
+        {name: 'CyberAcademy', image: '/Screenshot 2026-03-01 161710.png', link: 'https://cyber-academy-seven.vercel.app/', time: '03.01.2026', description: 'CyberAcademy is a modern, fully responsive educational platform developed for Cyber Academy. I built the entire frontend with a strong focus on clean design, user experience, and mobile-first responsiveness. The website adapts perfectly to all screen sizes and provides a smooth and engaging interface for users.'},
         {name: 'StackLog', image: '/Screenshot 2026-02-08 123109.png', link: 'https://stack-log-seven.vercel.app/', time: '02.08.2026', description: 'StackLog is a modern blogging platform, fully responsive and equipped with an admin panel for easy content management.'},
         {name: 'ChatApp', image: '/Screenshot 2026-01-05 171059.png', link: 'https://chat-app-six-liard-14.vercel.app/', time: '01.05.2026', description: 'Full-Stack Real-Time Chat App with Socket.IO & TypeScript'},
         {name: 'Blog', image: '/Screenshot 2025-11-29 133837.png', link: 'https://nextblog-ten-chi.vercel.app/', time: '11.25.2025', description: 'Modern blogging platform where users can create and publish posts with a clean and minimal UI.'},
