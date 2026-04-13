@@ -20,7 +20,7 @@ const AboutSection = () => {
         </p>
 
         <a
-          href='/TokoResume.pdf'
+          href='/Resume - Full Stack Developer.docx'
           download='TokoResume.pdf'
           className='bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 text-white font-semibold text-lg px-6 py-3 rounded-full hover:scale-105 transition-transform shadow-md hover:shadow-xl'
         >
